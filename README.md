@@ -1,5 +1,5 @@
 # MatchFix API
-### A backend API for MatchFix (https://github.com/PranavMurali/MatchFix), my sports resource management web application. This API is used to populate the frontend with data about the faciltites at each university.
+### A backend API for MatchFix (github.com/PranavMurali/MatchFix), my sports resource management web application. This API is used to populate the frontend with data about the faciltites at each university.
 
 ## Features:
 
