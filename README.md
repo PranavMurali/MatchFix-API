@@ -28,5 +28,4 @@ Used to update any sports entry using the sports entry's ID
 ![alt](../main/readme/PATCH_sport.png)
 
 ### TEST
-Used to test the API
 ![alt](../main/readme/TEST.png)
