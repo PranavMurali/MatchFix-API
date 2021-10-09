@@ -21,7 +21,7 @@ describe('Feature testing', () =>{
 
     it('GET /sport/:id --> specific sport by ID',()=>{
         return request(app)
-        .get('/sport/61620cc67fc6641436ec2cc3')
+        .get('/sport/616213da85f4e08cb691d49d')
         .expect(200)
         .expect('Content-Type', /json/)
         .then(res => {

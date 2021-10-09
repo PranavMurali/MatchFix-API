@@ -3,7 +3,12 @@ const Sport = require('../models/sport');
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-  res.send("MatchFix API");
+  res.send(`MatchFix API
+  * This API can POST sports details such as name, description and Image for the sports offered at your university.
+  * Your data can then be retrived from our Mongodb Atlas database and be used to populate your university's MatchFix website.
+  * This API can also GET, Delete and PATCH any of the sports entries.
+  * The GET search can be done using both sport entry ID and author name.
+  * This API has to be locally hosted at your insitution while fine tuning MatchFix for your institution.`);
 });
 
 router.get('/all', async (req, res) => {
