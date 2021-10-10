@@ -1,6 +1,11 @@
 # MatchFix API
 ### A backend API for <a href="http://github.com/PranavMurali/MatchFix" target="_blank">MatchFix</a>, my sports resource management web application. This API is used to populate the frontend with data about the faciltites at each university.
 
+## Usage: 
+1. clone the repo ``` git clone https://github.com/PranavMurali/MatchFix-API . ```
+2. ``` npm install ```
+3. ``` npm start ```
+
 ## Endpoints:
 
 ### GET /sport
