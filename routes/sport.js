@@ -1,5 +1,5 @@
 const express = require('express');
-const Sport = require('../models/sport');
+const Sport = require('../models/Sport');
 const router = express.Router();
 
 router.get('/', async (req, res) => {

@@ -7,7 +7,6 @@ app.use(BodyParser.json());
 const mongoose = require("mongoose");
 
 const sportroutes = require("./routes/sport");
-const bodyParser = require("body-parser");
 app.use('/sport', sportroutes);
 
 mongoose.connect(process.env.DB, {
