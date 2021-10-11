@@ -15,7 +15,7 @@ mongoose.connect(process.env.DB, {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("This is the MatchFix API. Hello!");
 });
 
 app.listen(process.env.PORT || 3000, function(){
